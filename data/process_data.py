@@ -11,7 +11,7 @@ class DataPreProcessing:
         Args:
         messages_filepath: The path of the csv file that holds the messages.
         categories_filepath: The path of the csv file that holds the categories of the messages.
-        database_filepath: The database file name, in which the dataframe shall be saved.
+        database_filepath: The database file path, in which the dataframe shall be saved.
 
         Returns:
         The data frame that holds the merged data.
@@ -25,8 +25,7 @@ class DataPreProcessing:
         Load, merge and return the data given. 
 
         Args:
-        messages_filepath: The path of the csv file that holds the messages.
-        categories_filepath: The path of the csv file that holds the categories of the messages. 
+        None
 
         Returns:
         The data frame that holds the merged data.
@@ -79,13 +78,11 @@ class DataPreProcessing:
 
         Args:
         df: The dataframe to be saved.
-        database_filename: The database file name, 
-        in which the dataframe shall be saved.
 
         Returns:
         None
         """
-        engine = create_engine('sqlite:///' + self.database_filename)
+        engine = create_engine('sqlite:///' + self.database_filepath)
         df.to_sql('Classified_Messages', engine, index = False, if_exists = 'replace')
 
     def run(self):
@@ -131,3 +128,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+    
