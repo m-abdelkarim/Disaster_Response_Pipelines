@@ -1,0 +1,287 @@
+Evaluation of: related
+             precision    recall  f1-score   support
+
+          0       0.67      0.40      0.50      1217
+          1       0.84      0.94      0.89      3989
+
+avg / total       0.80      0.81      0.80      5206
+
+Evaluation of: request
+             precision    recall  f1-score   support
+
+          0       0.90      0.97      0.93      4278
+          1       0.79      0.49      0.60       928
+
+avg / total       0.88      0.88      0.87      5206
+
+Evaluation of: offer
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00      5180
+          1       0.00      0.00      0.00        26
+
+avg / total       0.99      1.00      0.99      5206
+
+Evaluation of: aid_related
+             precision    recall  f1-score   support
+
+          0       0.77      0.80      0.79      3011
+          1       0.71      0.68      0.69      2195
+
+avg / total       0.75      0.75      0.75      5206
+
+Evaluation of: medical_help
+             precision    recall  f1-score   support
+
+          0       0.93      0.99      0.96      4809
+          1       0.61      0.14      0.22       397
+
+avg / total       0.91      0.93      0.91      5206
+
+Evaluation of: medical_products
+             precision    recall  f1-score   support
+
+          0       0.96      1.00      0.98      4949
+          1       0.79      0.15      0.25       257
+
+avg / total       0.95      0.96      0.94      5206
+
+Evaluation of: search_and_rescue
+             precision    recall  f1-score   support
+
+          0       0.97      1.00      0.99      5064
+          1       0.47      0.06      0.11       142
+
+avg / total       0.96      0.97      0.96      5206
+
+Evaluation of: security
+             precision    recall  f1-score   support
+
+          0       0.98      1.00      0.99      5110
+          1       0.00      0.00      0.00        96
+
+avg / total       0.96      0.98      0.97      5206
+
+Evaluation of: military
+             precision    recall  f1-score   support
+
+          0       0.97      1.00      0.98      5018
+          1       0.65      0.09      0.16       188
+
+avg / total       0.96      0.97      0.95      5206
+
+Evaluation of: child_alone
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00      5206
+
+avg / total       1.00      1.00      1.00      5206
+
+Evaluation of: water
+             precision    recall  f1-score   support
+
+          0       0.96      0.99      0.98      4859
+          1       0.84      0.39      0.53       347
+
+avg / total       0.95      0.95      0.95      5206
+
+Evaluation of: food
+             precision    recall  f1-score   support
+
+          0       0.94      0.99      0.96      4596
+          1       0.83      0.49      0.62       610
+
+avg / total       0.92      0.93      0.92      5206
+
+Evaluation of: shelter
+             precision    recall  f1-score   support
+
+          0       0.94      0.99      0.96      4726
+          1       0.82      0.32      0.46       480
+
+avg / total       0.92      0.93      0.92      5206
+
+Evaluation of: clothing
+             precision    recall  f1-score   support
+
+          0       0.99      1.00      0.99      5126
+          1       0.75      0.23      0.35        80
+
+avg / total       0.98      0.99      0.98      5206
+
+Evaluation of: money
+             precision    recall  f1-score   support
+
+          0       0.97      1.00      0.99      5065
+          1       0.43      0.02      0.04       141
+
+avg / total       0.96      0.97      0.96      5206
+
+Evaluation of: missing_people
+             precision    recall  f1-score   support
+
+          0       0.99      1.00      0.99      5149
+          1       0.00      0.00      0.00        57
+
+avg / total       0.98      0.99      0.98      5206
+
+Evaluation of: refugees
+             precision    recall  f1-score   support
+
+          0       0.97      1.00      0.98      5018
+          1       0.56      0.05      0.10       188
+
+avg / total       0.95      0.96      0.95      5206
+
+Evaluation of: death
+             precision    recall  f1-score   support
+
+          0       0.96      1.00      0.98      4971
+          1       0.81      0.13      0.22       235
+
+avg / total       0.95      0.96      0.94      5206
+
+Evaluation of: other_aid
+             precision    recall  f1-score   support
+
+          0       0.87      0.99      0.93      4512
+          1       0.45      0.06      0.10       694
+
+avg / total       0.82      0.87      0.82      5206
+
+Evaluation of: infrastructure_related
+             precision    recall  f1-score   support
+
+          0       0.94      1.00      0.97      4869
+          1       0.11      0.00      0.01       337
+
+avg / total       0.88      0.93      0.90      5206
+
+Evaluation of: transport
+             precision    recall  f1-score   support
+
+          0       0.95      1.00      0.97      4951
+          1       0.45      0.05      0.09       255
+
+avg / total       0.93      0.95      0.93      5206
+
+Evaluation of: buildings
+             precision    recall  f1-score   support
+
+          0       0.96      1.00      0.98      4952
+          1       0.71      0.17      0.27       254
+
+avg / total       0.95      0.96      0.94      5206
+
+Evaluation of: electricity
+             precision    recall  f1-score   support
+
+          0       0.98      1.00      0.99      5111
+          1       0.57      0.08      0.15        95
+
+avg / total       0.98      0.98      0.98      5206
+
+Evaluation of: tools
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00      5185
+          1       0.00      0.00      0.00        21
+
+avg / total       0.99      1.00      0.99      5206
+
+Evaluation of: hospitals
+             precision    recall  f1-score   support
+
+          0       0.99      1.00      1.00      5157
+          1       0.00      0.00      0.00        49
+
+avg / total       0.98      0.99      0.99      5206
+
+Evaluation of: shops
+             precision    recall  f1-score   support
+
+          0       0.99      1.00      1.00      5177
+          1       0.00      0.00      0.00        29
+
+avg / total       0.99      0.99      0.99      5206
+
+Evaluation of: aid_centers
+             precision    recall  f1-score   support
+
+          0       0.99      1.00      0.99      5135
+          1       0.00      0.00      0.00        71
+
+avg / total       0.97      0.99      0.98      5206
+
+Evaluation of: other_infrastructure
+             precision    recall  f1-score   support
+
+          0       0.96      1.00      0.98      4978
+          1       0.33      0.00      0.01       228
+
+avg / total       0.93      0.96      0.94      5206
+
+Evaluation of: weather_related
+             precision    recall  f1-score   support
+
+          0       0.88      0.94      0.91      3741
+          1       0.80      0.67      0.73      1465
+
+avg / total       0.86      0.86      0.86      5206
+
+Evaluation of: floods
+             precision    recall  f1-score   support
+
+          0       0.95      0.99      0.97      4751
+          1       0.88      0.48      0.62       455
+
+avg / total       0.95      0.95      0.94      5206
+
+Evaluation of: storm
+             precision    recall  f1-score   support
+
+          0       0.95      0.98      0.97      4734
+          1       0.73      0.46      0.57       472
+
+avg / total       0.93      0.94      0.93      5206
+
+Evaluation of: fire
+             precision    recall  f1-score   support
+
+          0       0.99      1.00      0.99      5142
+          1       1.00      0.05      0.09        64
+
+avg / total       0.99      0.99      0.98      5206
+
+Evaluation of: earthquake
+             precision    recall  f1-score   support
+
+          0       0.98      0.99      0.98      4726
+          1       0.84      0.75      0.80       480
+
+avg / total       0.96      0.96      0.96      5206
+
+Evaluation of: cold
+             precision    recall  f1-score   support
+
+          0       0.98      1.00      0.99      5114
+          1       0.70      0.08      0.14        92
+
+avg / total       0.98      0.98      0.98      5206
+
+Evaluation of: other_weather
+             precision    recall  f1-score   support
+
+          0       0.95      1.00      0.97      4938
+          1       0.55      0.04      0.08       268
+
+avg / total       0.93      0.95      0.93      5206
+
+Evaluation of: direct_report
+             precision    recall  f1-score   support
+
+          0       0.86      0.97      0.91      4132
+          1       0.75      0.37      0.50      1074
+
+avg / total       0.83      0.84      0.82      5206
+
